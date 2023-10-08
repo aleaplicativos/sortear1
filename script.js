@@ -40,6 +40,7 @@ sortearNovo.addEventListener('click', function () {
         if (contador >= 3000) {
             clearInterval(intervaloID);
             time.style.display = "none";
+            sorteados = []; // Resetamos a variável após cada sorteio
         }
     }, intervalo);
 });
