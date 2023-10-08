@@ -9,6 +9,11 @@
   margin-bottom: 50px;
 }
 
+/* Adicione isso ao seu arquivo style.css */
+#sortearNovo:hover {
+  background-color: #2c5eff; /* Cor de destaque quando o mouse passa sobre o botão */
+}
+
 body {
   margin: 0;
   padding: 0;
